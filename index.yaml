@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  standalone-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T15:51:42.292666198-08:00"
+    description: A Helm chart for Kubernetes
+    digest: 3eda77fde9f0f6b1ccd8da9a4d6146ead33ae55f7b2e8d451b709962a3e007f1
+    name: standalone-app
+    type: application
+    urls:
+    - https://sarathm-nvidia.github.io/myhelmrepo/standalone-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-06T15:51:42.291526694-08:00"
