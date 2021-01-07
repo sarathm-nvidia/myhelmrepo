@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  push-sample:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-01-06T16:06:09.113402443-08:00"
+    description: A Helm chart for Kubernetes
+    digest: 0747c60be381a0b0f07735e266db630ec71734d93701e6deffe0f5926e6fa1ff
+    name: push-sample
+    type: application
+    urls:
+    - https://sarathm-nvidia.github.io/myhelmrepo/push-sample-0.1.0.tgz
+    version: 0.1.0
   standalone-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-06T15:51:42.292666198-08:00"
+    created: "2021-01-06T16:06:09.113838747-08:00"
     description: A Helm chart for Kubernetes
     digest: 3eda77fde9f0f6b1ccd8da9a4d6146ead33ae55f7b2e8d451b709962a3e007f1
     name: standalone-app
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://sarathm-nvidia.github.io/myhelmrepo/standalone-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-06T15:51:42.291526694-08:00"
+generated: "2021-01-06T16:06:09.112763987-08:00"
